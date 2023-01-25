@@ -1,5 +1,17 @@
+/* COPYRIGHT INFO */
+/*
+    AUTHOR: RAJJIT LAISHRAM
+    DATE CREATED: SEPTEMBER 06, 2022
+    PURPOSE: FOR MANAGING THE ATTENDANCE OF STUDENTS BY THE TEACHERS. 
+    THIS APPLICATION CAN BE USED TO MANAGE ALL THE ACTIVITIES OF THE STUDENTS.
+
+    DATE MODIFIED: JANUARY 25, 2023
+    CHANGES: ADDED INFOR FOR EACH SECTION
+*/
+
 //  C++ Program on Attendance Management of Students
 
+// INCLUDES THE REQUIRED LIBRARY FILES
 #include <iostream>
 #include <conio.h>
 #include <ctype.h>
@@ -17,23 +29,26 @@
 
 using namespace std;
 
-void title();                                                  
-void date();                                                   
-int delay();                                                  
+// USER DEFINED FUNCTIONS
+void title(); // TO GIVE THE TITLE                                                  
+void date(); // TO GIVE THE DATE                                                   
+int delay(); // TO DELAY THE DISPLAY               
 void delay(unsigned int mseconds);                             
-int adminLogin();                                              
-int adminView();                                               
-int registerStudent();                                        
-int checkListOfStudentsRegistered();                          
-int studentLogin();                                           
-int studentView();                                             
-int checkStudentCredentials(string userName, string password); 
-int markMyAttendance(string username);                        
-int countMyAttendance(string username);                        
-int sendLeaveApplication(string username);                     
-int deleteAllStudents();                                       
-int getListOFStudentsRegistered();                             
-int deleteStudentAllData();                                    
+int adminLogin(); // LOGIN FUNCTION FOR TEACHERS                                              
+int adminView(); // DISPLAY FOR THE TEACHERS                                              
+int registerStudent(); // TO REGISTER STUDENTS                        
+int checkListOfStudentsRegistered(); // TO CHECK THE LIST OF STUDENTS                       
+int studentLogin(); // LOGIN FUNCTION FOR STUDENTS             
+int studentView(); // DISPLAY FOR THE STUDENTS                                             
+int checkStudentCredentials(string userName, string password); // CHECK PASSWORD
+int markMyAttendance(string username); // MARK THE ATTENDANCE                       
+int countMyAttendance(string username); // COUNT THE ATTENDANCE                       
+int sendLeaveApplication(string username); // TO SEND LEAVE
+int deleteAllStudents(); // TO DELETE ALL THE STUDENTS    
+int getListOFStudentsRegistered(); // GET THE LIST OF STUDENTS
+int deleteStudentAllData(); // DELETE STUDENT DATA
+
+using namespace std;
 
 int m = 0;
 int total = 100;
