@@ -29,4 +29,14 @@ A C++ Project on Attendance management of students
 - int getListOFStudentsRegistered() ➡️ gets list of students registered by username only
 - int deleteStudentAllData() ➡️ deletes data of all students
 
+
+## COPYRIGHT INFO
+    AUTHOR: RAJJIT LAISHRAM
+    DATE CREATED: SEPTEMBER 06, 2022
+    PURPOSE: FOR MANAGING THE ATTENDANCE OF STUDENTS BY THE TEACHERS. 
+    THIS APPLICATION CAN BE USED TO MANAGE ALL THE ACTIVITIES OF THE STUDENTS.
+
+    DATE MODIFIED: JANUARY 25, 2023
+    CHANGES: ADDED INFOR FOR EACH SECTION
+
 ### 🤗 Thank you so much!
